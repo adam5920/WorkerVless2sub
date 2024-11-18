@@ -7,12 +7,29 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	'icook.tw:2053#官方优选域名',
 	'cloudflare.cfgo.cc#优选官方线路',
+	'cf.090227.xyz',
+	'ct.090227.xyz',
+	//'cmcc.090227.xyz:443',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt?proxyip=true', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/jullyl8/WorkerVless2sub/main/bestip.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+	'https://addressesapi.090227.xyz/ct',
+	'https://addressesapi.090227.xyz/cmcc',
+	'https://addressesapi.090227.xyz/CloudFlareYes',
+	'https://addressesapi.090227.xyz/ip.164746.xyz',
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
+	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
+	'https://cn.xxxxxxxx.tk',
+	'https://ct.xxxxxxxx.tk',
+	'https://cm.xxxxxxxx.tk',
+	'https://cu.xxxxxxxx.tk',
+	'https://addressesapi.090227.xyz/cmcc-ipv6',
+	'https://ctv6.xxxxxxxx.tk',
+	'https://cmv6.xxxxxxxx.tk',
+	'https://cuv6.xxxxxxxx.tk',
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
